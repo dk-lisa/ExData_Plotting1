@@ -21,7 +21,7 @@ plot(DateTime, Sub_metering_1,
      xlab = "", ylab = "Energy sub metering")
 lines(DateTime, Sub_metering_2, col = "red")
 lines(DateTime, Sub_metering_3, col = "blue")
-# Remove the border of legend here.
+# Remove the border of legend
 legend("topright", 
        bty = "n",
        col = c("black", "red", "blue"),
